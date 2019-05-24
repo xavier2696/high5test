@@ -1,6 +1,6 @@
-<div>
-    <input [value]="I"> <!-- two-way binding -->
-    <div> <!-- for loop -->
-        <!-- i -->
+<div id="container">
+    <input type="number" [(ngModel)]="I" (input)=update_array() id="n_input">
+    <div *ngFor="let number of numbers_array" class="circular"> 
+    	{{number}}
     </div>
 </div>

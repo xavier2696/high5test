@@ -1,0 +1,23 @@
+#container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#n_input{
+	font-size: 24px; 
+	width: 56px
+}
+
+.circular{
+	width: 50px; 
+	height: 50px; 
+	margin-top: 20px; 
+	background-color: gray; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	color: white; 
+	border-radius: 25px; 
+	font-size: 24px
+}
